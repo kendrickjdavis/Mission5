@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div style="text-align: center; max-width: 800px; margin: 0 auto; background: rgba(51, 51, 51,.9); padding: 10px; color:white">
+    <h1 class="display-4">Become a <b>SQL God</b></h1>
+    <h3 class="display-7">With Kendrick Davis</h3>
+    <br />
+    <h5 style="color:deepskyblue">Use the calculator to determine how much it will cost to learn SQL with Kendrick.</h5>
+    <h5 style="color:deepskyblue">It's worth it, I promise!</h5>
+</div>
+
+<br /><br />
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="~js/site.js"></script>
+
+
+<div style="text-align: left; max-width: 800px; margin: 0 auto; background: rgba(51, 51, 51,.9); padding: 10px; color:white; font-size: large">
+    <h3 style="text-align:center">Calculate Tutoring Charge</h3>
+    <br />
+    <label for="hours">Number of Hours:</label>
+    <input type="number" id="hours" min="0" step="1" autofocus />
+    <br /><br />
+    <label for="rate">Hourly Rate:</label>
+    <input type="text" id="rate" value="1776"  readonly disabled />
+    <br /><br />
+    <button id="calculateTotal" class="btn btn-dark">Calculate Total</button>
+    <br /><br />
+    <label for="total">Total:</label>
+    <input type="text" id="total" readonly disabled/>
+    <br /><br />
+</div>
+
+<br />
+<br />
+<br />
+<br />
